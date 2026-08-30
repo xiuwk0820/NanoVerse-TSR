@@ -52,9 +52,11 @@ classifier/test_images/
 # Duplicate paper figures (README uses assets/)
 data/figures/
 
-# PID / local logs
+# PID / local logs / training curves
 *.pid
 *.log
+data/experiments/**/*results.csv
+data/experiments/**/*train*.csv
 
 # Legacy sibling project
 ../YOLO-TS/

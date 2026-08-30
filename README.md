@@ -60,7 +60,7 @@ Stage 2 performs fine-grained recognition via **cross-modal contrastive learning
 | TT100K | **91.6%** |
 | GTSRB | **97.3%** |
 
-Full logs: [`data/experiments/NanoVerse-TSR/`](data/experiments/NanoVerse-TSR/)
+Published numbers: [`data/experiments/NanoVerse-TSR/`](data/experiments/NanoVerse-TSR/)
 
 ---
 

@@ -33,7 +33,3 @@ Checkpoint: `data/weights/classifier/enhance_token_91.6_best.pth`
 ## Table VI — Weather Subsets
 
 See `weather_metrics.txt` in this directory.
-
-## Local Training Logs
-
-- `detector_train7_results.csv` — auxiliary YOLO training log (3-class TT100K subset)
