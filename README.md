@@ -103,7 +103,7 @@ Release checklist. Tick these as assets go public.
 - [ ] Replace **Coming soon** links in this README after the first Release
 - [ ] Add a short inference demo video / extra qualitative figures
 
-Watch [Releases](https://github.com/linusai0824-star/NanoVerse-TSR/releases) for updates.
+Watch [Releases](https://github.com/xiuwk0820-collab/NanoVerse-TSR/releases) for updates.
 
 ---
 
@@ -112,7 +112,7 @@ Watch [Releases](https://github.com/linusai0824-star/NanoVerse-TSR/releases) for
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/linusai0824-star/NanoVerse-TSR.git
+git clone https://github.com/xiuwk0820-collab/NanoVerse-TSR.git
 cd NanoVerse-TSR
 
 python -m venv .venv && source .venv/bin/activate
