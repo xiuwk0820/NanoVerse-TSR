@@ -1,0 +1,39 @@
+# NanoVerse-TSR — Published Results
+
+Benchmark numbers reported in the IEEE Sensors Journal paper.
+
+## Table II — TT100K Detection (%)
+
+| Metric | Value |
+|--------|------:|
+| Precision | 91.8 |
+| Recall | 88.9 |
+| mAP50 | 78.4 |
+| mAP50-95 | 71.9 |
+
+## Table III — CCTSDB2021 Detection (%)
+
+| Metric | Value |
+|--------|------:|
+| Precision | 87.6 |
+| Recall | 76.7 |
+| mAP50 | 83.0 |
+
+Checkpoint: `data/weights/detector/cctsdb_yolo11s_world8_best.pt`
+
+## Table IV — Classifier Top-1 (%)
+
+| Dataset | Top-1 |
+|---------|------:|
+| TT100K (GT crops) | 91.6 |
+| GTSRB | 97.3 |
+
+Checkpoint: `data/weights/classifier/enhance_token_91.6_best.pth`
+
+## Table VI — Weather Subsets
+
+See `weather_metrics.txt` in this directory.
+
+## Local Training Logs
+
+- `detector_train7_results.csv` — auxiliary YOLO training log (3-class TT100K subset)

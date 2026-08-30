@@ -1,0 +1,9 @@
+path: ../../data/datasets/CCTSDB
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: mandatory
+  1: prohibitory
+  2: warning

@@ -1,0 +1,9 @@
+path: ../../data/datasets/TT100K_3cls
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: Indication signs
+  1: Prohibition signs
+  2: Warning signs

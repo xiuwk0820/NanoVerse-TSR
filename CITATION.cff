@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "NanoVerse-TSR: Contrastive Learning-Driven Traffic Sign Recognition"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Lu
+    given-names: Qiang
+  - family-names: Xiu
+    given-names: Waikit
+  - family-names: Li
+    given-names: Xiying
+  - family-names: Hu
+    given-names: Shenyu
+  - family-names: Sun
+    given-names: Shengbo
+repository-code: "https://github.com/linusai0824-star/NanoVerse-TSR"
+url: "https://ieeexplore.ieee.org/document/3704014"
+preferred-citation:
+  type: article
+  title: "NanoVerse-TSR: Contrastive Learning-Driven Traffic Sign Recognition"
+  authors:
+    - family-names: Lu
+      given-names: Qiang
+    - family-names: Xiu
+      given-names: Waikit
+    - family-names: Li
+      given-names: Xiying
+    - family-names: Hu
+      given-names: Shenyu
+    - family-names: Sun
+      given-names: Shengbo
+  journal: "IEEE Sensors Journal"
+  year: 2026
+  doi: "10.1109/JSEN.2026.3704014"

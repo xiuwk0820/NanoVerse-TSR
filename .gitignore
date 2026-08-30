@@ -1,0 +1,60 @@
+# Local Python env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Datasets (images & YOLO labels). Annotations JSON stay in the repo.
+# Download instructions: docs/DATASETS.md
+# ---------------------------------------------------------------------------
+# Local dataset trees or symlinks (do not publish machine paths)
+data/datasets/TT100K_detection_221cls
+data/datasets/CCTSDB
+data/datasets/TSTIAD_images
+data/datasets/TT100K_3cls
+data/datasets/TT100K_images
+data/datasets/TT100K-2016.yaml
+data/datasets/TSR_yolo_3cls.yaml
+
+# ---------------------------------------------------------------------------
+# Checkpoints — host on GitHub Releases, not in git
+# Download instructions: docs/WEIGHTS.md
+# ---------------------------------------------------------------------------
+data/weights/**/*.pt
+data/weights/**/*.pth
+/weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Keep tokenizer vocab used by the classifier
+!classifier/model_data/bpe_simple_vocab_16e6.txt.gz
+
+# ---------------------------------------------------------------------------
+# Training / eval artifacts
+# ---------------------------------------------------------------------------
+runs/
+detector/runs/
+detector/tmp_weather_eval/
+detector/tmp_data/
+classifier/logs/
+classifier/results/
+classifier/test_images/
+
+# Duplicate paper figures (README uses assets/)
+data/figures/
+
+# PID / local logs
+*.pid
+*.log
+
+# Legacy sibling project
+../YOLO-TS/

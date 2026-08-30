@@ -1,0 +1,8 @@
+path: /home/psm/temp/clip/CLIP_TSR/datasets/TT100K3
+train: images/train
+val: images/val
+
+names:
+  0: Indication signs
+  1: Prohibition signs
+  2: Warning signs
